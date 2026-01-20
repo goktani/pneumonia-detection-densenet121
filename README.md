@@ -60,7 +60,7 @@ git clone [https://github.com/goktani/pneumonia-detection-densenet121.git]
 pip install -r requirements.txt
 ```
 
-### 3. Open the Notebook: Launch Jupyter Notebook or Google Colab and run Pneumonia_Detection_DenseNet121.ipynb.
+### 3. Open the Notebook: Launch Jupyter Notebook or Google Colab and run pneumonia-detection-high-accuracy-recall.ipynb.
 
 ## 🛠 Tech Stack
 
