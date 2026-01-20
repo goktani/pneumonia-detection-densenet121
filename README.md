@@ -1,11 +1,15 @@
 # 🫁 Pneumonia Detection using DenseNet121
 
+[![Kaggle](https://img.shields.io/badge/Kaggle-View%20Notebook-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/goktani/pneumonia-detection-high-accuracy-recall/notebook)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📌 Project Overview
 This project aims to build a robust Deep Learning model to classify Chest X-Ray images into two categories: **Normal** and **Pneumonia**. 
+
+You can view and run the full code directly on Kaggle:
+👉 **[Click here to view the Live Notebook](https://www.kaggle.com/code/goktani/pneumonia-detection-high-accuracy-recall/notebook)**
 
 In medical diagnosis, **Recall (Sensitivity)** is a critical metric because missing a positive case (False Negative) is far more dangerous than a False Positive. This project leverages **Transfer Learning** with the **DenseNet121** architecture to achieve high sensitivity in detecting pneumonia cases.
 
