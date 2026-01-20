@@ -47,3 +47,33 @@ The model was evaluated on the test set (624 images).
     accuracy                           0.91       624
    macro avg       0.90      0.90      0.90       624
 weighted avg       0.91      0.91      0.91       624
+```
+## 🚀 How to Run
+
+### 1. Clone the repository:
+```bash
+git clone [https://github.com/goktani/pneumonia-detection-densenet121.git]
+```
+
+### 2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Open the Notebook: Launch Jupyter Notebook or Google Colab and run Pneumonia_Detection_DenseNet121.ipynb.
+
+## 🛠 Tech Stack
+
+### Language: Python
+
+### Libraries: TensorFlow/Keras, NumPy, Pandas, Matplotlib, Seaborn
+
+### Environment: Kaggle Kernels / Google Colab (GPU Supported)
+
+## 🔜 Future Improvements
+
+### Fine-Tuning: Unfreezing the last convolutional blocks of DenseNet121 to improve feature extraction specific to X-Ray textures.
+
+### Grad-CAM: Implementing Class Activation Maps to visualize which part of the lung the model is looking at.
+
+Created by Goktan
